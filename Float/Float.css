@@ -10,19 +10,59 @@
   margin: 0px;
 }
 
+.input {
+  text-align: left;
+  font-family: Fira code;
+  float: left;
+  margin-left: 90px;
+  margin-top: -7px;
+  padding: 0px;
+  width: 500px;
+  height: 35px;
+}
+.imageCart{
+  float: right;
+  /*height: 40px;*/
+  color: white;
+  /*height: 40px;*/
+  width: 56px;
+  margin-right:-78px;
+  /*height: 4px;*/
+  margin-top: -25px;
+
+  /*padding-right: -200px;*/
+  /*background-color: #ff2242;*/
+}
+text{
+  float: right;
+  color: white;
+  /*padding-right: 400px;*/
+  margin-right: 360px;
+}
+
+.submit {
+  float: left;
+  font-family: Fira code;
+  margin-top:-6.5px;
+  margin-left:10px;
+  width: 100px;
+  height: 35px;
+}
+
 .down_header {
   /*text-decoration-color: red;*/
   height: 70px;
   background-color: #ff2242;
 }
 
-.clearfix::after {
+.clearfix:after {
   content: "";
   clear: both;
   display: block;
 }
 
 .up_header ul {
+  float: right;
   list-style: none;
   margin-top: -20px;
   /*margin-left: -1000px;*/
@@ -34,6 +74,8 @@ li {
 }
 
 .up_header ul li a {
+  font-family: Fira code;
+  font-size: 13px;
   text-decoration: none;
   margin: 0px;
   color: #f6ffff;
@@ -49,21 +91,25 @@ li {
   /*text-transform: uppercase;*/
 }
 
-.down_header {
+/*.down_header {
   font-family: Fira code;
   color: white;
   font-size: 20px;
   margin: 0px;
-  /*padding: -30px;*/
-}
+  padding: -30px;
+}*/
 
 .down_header img {
-  margin-left: -180px;
+  margin-left: -870px;
+  margin-bottom: 100px;
   /*width: 90px;*/
   height: 70px;
 }
 
 .down_header t {
+  font-family: Fira code;
+  color: white;
+  font-size: 20px;
   float: left;
   padding-left: 100px;
   padding-top: 20px;
@@ -80,9 +126,9 @@ li {
 }
 
 ul li {
-  float: right;
+  float: left;
   /*margin-left: 200px;*/
-  padding-top: 0px;
+  padding-top: 2px;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
